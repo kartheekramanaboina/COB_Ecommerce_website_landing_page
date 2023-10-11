@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>E-commerce landing page</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav__logo"><a href="#">SofaVogue</a></div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#choose">About</a></li>
+        <li class="link"><a href="#craft">Craft</a></li>
+        <li class="link"><a href="#testimonial">Testimonials</a></li>
+        <li class="link"><a href="#blog">Blog</a></li>
+      </ul>
+      <div class="nav__menu__btn" id="menu-btn">
+        <span><i class="ri-menu-line"></i></span>
+      </div>
+      <div class="nav__actions">
+        <span><i class="ri-search-fill"></i></span>
+        <span><i class="ri-user-fill"></i></span>
+      </div>
+    </nav>
+    <div class="section__container header__container" id="home">
+      <h1>Enhance the Modern Minimalism of Your Interior</h1>
+      <p>
+        Modernize your room swiftly with minimalistic flair using pantomime
+      </p>
+      <form action="/">
+        <input type="text" placeholder="Search furniture" />
+        <button><i class="ri-search-line"></i></button>
+      </form>
+      <a href="#choose"><i class="ri-arrow-down-double-line"></i></a>
+    </div>
+  </header>
+
+  <section class="section__container choose__container" id="choose">
+    <img class="choose__bg" src="assets/dot-bg.png" alt="bg" />
+    <div class="choose__content">
+      <h2 class="section__header">Why Choose Us</h2>
+      <p class="section__subheader">
+        We create custom furniture that fits your style and needs perfectly
+      </p>
+      <div class="choose__grid">
+        <div class="choose__card">
+          <span><i class="ri-truck-line"></i></span>
+          <h4>Quick and Complimentary Delivery</h4>
+          <p>
+            Elevate interior design with our fast, free shipping for prompt delivery
+          </p>
+        </div>
+        <div class="choose__card">
+          <span><i class="ri-shopping-bag-3-line"></i></span>
+          <h4>Shopping made simple</h4>
+          <p>
+            Experience Effortless Elegance: Explore Our User-Friendly Interior Design Solutions
+          </p>
+        </div>
+        <div class="choose__card">
+          <span><i class="ri-customer-service-2-line"></i></span>
+          <h4>24/7 Service</h4>
+          <p>
+            Find comfort in knowing that our dedicated team is available 24/7
+          </p>
+        </div>
+        <div class="choose__card">
+          <span><i class="ri-loop-right-line"></i></span>
+          <h4>Return without hassle</h4>
+          <p>
+            We're all about the perfect match, and if it doesn't quite work, returning items is a breeze.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="choose__image">
+      <img src="assets/choose.jpg" alt="choose" />
+    </div>
+  </section>
+
+  <section class="offer__container" id="offer">
+    <div class="offer__grid__top">
+      <img src="assets/offer-1.jpg" alt="offer" />
+      <img src="assets/offer-2.jpg" alt="offer" />
+      <img src="assets/offer-3.jpg" alt="offer" />
+      <div class="offer__content">
+        <h2 class="section__header">Intelligent Deals</h2>
+        <p class="section__subheader">
+          Discover exclusive offers to infuse your interior with style
+        </p>
+        <button class="btn">Explore Now</button>
+      </div>
+    </div>
+    <div class="offer__grid__bottom">
+      <img src="assets/offer-4.jpg" alt="offer" />
+      <img src="assets/offer-5.jpg" alt="offer" />
+      <img src="assets/offer-6.jpg" alt="offer" />
+      <img src="assets/offer-7.jpg" alt="offer" />
+    </div>
+  </section>
+
+  <section class="section__container craft__container" id="craft">
+    <div class="craft__content">
+      <h2 class="section__header">Crafted from exceptional materials</h2>
+      <p class="section__subheader">
+        Elevate Your Space with Quality and Style
+      </p>
+      <button class="btn">Explore</button>
+    </div>
+    <div class="craft__image">
+      <div class="craft__image__content">
+        <img src="assets/craft-1.png" alt="craft" />
+        <p>Scandinavian chair</p>
+        <h4>$59.99</h4>
+      </div>
+      <a href="#"><i class="ri-add-line"></i></a>
+    </div>
+    <div class="craft__image">
+      <div class="craft__image__content">
+        <img src="assets/craft-2.png" alt="craft" />
+        <p>Wing Chair</p>
+        <h4>$69.99</h4>
+      </div>
+      <a href="#"><i class="ri-add-line"></i></a>
+    </div>
+    <div class="craft__image">
+      <div class="craft__image__content">
+        <img src="assets/craft-3.png" alt="craft" />
+        <p>Statement Chair</p>
+        <h4>$79.99</h4>
+      </div>
+      <a href="#"><i class="ri-add-line"></i></a>
+    </div>
+  </section>
+
+  <section class="section__container modern__container" id="modern">
+    <div class="modern__image">
+      <img src="assets/dot-bg.png" alt="bg" class="modern__bg" />
+      <img src="assets/modern-1.jpg" alt="modern" class="modern__img-1" />
+      <img src="assets/modern-2.jpg" alt="modern" class="modern__img-2" />
+      <img src="assets/modern-3.jpg" alt="modern" class="modern__img-3" />
+    </div>
+    <div class="modern__content">
+      <h2 class="section__header">
+        Elevate Your Space with Contemporary Interior Design
+      </h2>
+      <p class="section__subheader">
+        Elevate Your Space with Our Modern Interior Design Expertise:
+        Let us lead you in creating chic and personalized interiors that mirror your individual style and way of life
+      </p>
+      <div class="modern__grid">
+        <div class="modern__card">
+          <span><i class="ri-checkbox-blank-circle-line"></i></span>
+          <p>
+            Our team excels at crafting personalized interior designs that embrace contemporary aesthetics
+          </p>
+        </div>
+        <div class="modern__card">
+          <span><i class="ri-checkbox-blank-circle-line"></i></span>
+          <p>
+            We lead the way in design trends, guaranteeing your space is always chic and cutting-edge
+          </p>
+        </div>
+        <div class="modern__card">
+          <span><i class="ri-checkbox-blank-circle-line"></i></span>
+          <p>
+            Contemporary interior design encompasses both style and practicality, ensuring your comfort
+          </p>
+        </div>
+        <div class="modern__card">
+          <span><i class="ri-checkbox-blank-circle-line"></i></span>
+          <p>
+            We oversee every step of the design journey, from concept to sourcing and seamless installation
+          </p>
+        </div>
+      </div>
+      <button class="btn">Explore</button>
+    </div>
+  </section>
+
+  <section class="section__container testimonial__container" id="testimonial">
+    <h2 class="section__header">Testimonials</h2>
+    
+    <div class="swiper"> 
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial__card">
+            <p>
+              Working with them was an absolute delight! Their expertise in modern design completely transformed my home
+              into a contemporary sanctuary. Now, I have a space that's not only visually stunning but also
+              exceptionally comfortable. I'm thrilled with the results!
+            </p>
+            <img src="assets/profile-pic-1.jpg" alt="testimonial" />
+            <h4>Smith edwick</h4>
+            <h5>CEO, Co-Founder</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial__card">
+            <p>
+              I enlisted their services for an office space makeover, and the outcome went beyond my expectations. Their
+              creative design ideas infused fresh vitality into our workplace, achieving a perfect blend of
+              functionality and style. The team's meticulous attention to detail and dedication to top-notch quality are
+              truly praiseworthy
+            </p>
+            <img src="assets/profile-pic-2.jpg" alt="testimonial" />
+            <h4>Billie Anna</h4>
+            <h5>Office Renovator</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial__card">
+            <p>
+              envisioned a minimalist-inspired home, and they executed it flawlessly. Their designers grasped my
+              aesthetic, integrating sleek, clean lines and a neutral color scheme to craft a tranquil oasis. I adore my
+              contemporary, clutter-free space!
+            </p>
+            <img src="assets/profile-pic-3.jpg" alt="testimonial" />
+            <h4>Micheal william</h4>
+            <h5>Banker</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial__card">
+            <p>
+
+              Their distinction lies in their professionalism and efficiency, which rendered the entire design process
+              effortless, from the initial consultation to the final installation. Their team managed all aspects,
+              resulting in a stunningly designed modern interior that exceeded my expectations.
+            </p>
+            <img src="assets/profile-pic-4.jpg" alt="testimonial" />
+            <h4>Christopher Brown</h4>
+            <h5>Businessman</h5>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="section__container blog_container" id="blog">
+    <h2 class="section__header">Latest Blog</h2>
+    <div class="blog__grid">
+      <div class="blog__card">
+        <img src="assets/blog-1.jpg" alt="blog" />
+        <h4>Mastery of Contemporary Minimalism</h4>
+        <p><span>by</span> SoulfulDesignCraft <span>on</span> Jun 14th, 2022</p>
+      </div>
+      <div class="blog__card">
+        <img src="assets/blog-2.jpg" alt="blog" />
+        <h4>Blending Technology and Design</h4>
+        <p>
+          <span>by</span> NestChicInteriors <span>on</span> Oct 08th, 2022
+        </p>
+      </div>
+      <div class="blog__card">
+        <img src="assets/blog-3.jpg" alt="blog" />
+        <h4>Eco-Friendly Modern Interiors</h4>
+        <p><span>by</span> HomeStyleHarmony <span>on</span> Mar 23rd, 2023</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__content">
+        <h4>JOIN FOR OUR LATEST UPDATES</h4>
+        <p>
+          We encourage you to subscribe to our newsletter. Provide your email to receive our daily updates
+        </p>
+      </div>
+      <div class="footer__form">
+        <form action="/">
+          <input type="text" placeholder="Enter your email" />
+          <button>Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="section__container footer__bar">
+      <div class="footer__logo">
+        <h4><a href="#">SofaVogue</a></h4>
+        <p>Copyright © 2023 SofaVogue. All rights reserved.</p>
+      </div>
+      <ul class="footer__nav">
+        <li class="footer__link"><a href="#">About</a></li>
+        <li class="footer__link"><a href="#">Partnership</a></li>
+        <li class="footer__link"><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
